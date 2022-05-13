@@ -1,0 +1,2 @@
+# Case-cDelete_Button
+Case 1 ; Array format with single column native ListView Global $vData[1] = ["Tom " &amp; $iCount_Left] $iCount_Left += 1 _GUIListViewEx_Insert($vData) Case 2 ; String format with single column UDF ListView $vData = "Peter " &amp; $iCount_Right $iCount_Right += 1 _GUIListViewEx_Insert($vData) EndSwitch Case $cDelete_Button _GUIListViewEx_Delete() Case $cReset_Button ; Note parameter required for each step
